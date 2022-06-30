@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Documents from "next/document";
 
 const Meta = ({ title }) => {
   return (
