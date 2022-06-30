@@ -4,12 +4,11 @@ import { MdClose, MdSearch } from "react-icons/md";
 import { BsCart2 } from "react-icons/bs";
 import { BiMenuAltRight } from "react-icons/bi";
 import style from "./../styles/nav.module.css";
-import Aside from "./aside";
 
 const Nav = () => {
   return (
     <>
-      <nav className='p-4 flex items-center'>
+      <nav className='p-4 flex items-center bg-gray-50'>
         <div className='hidden w-1/2 lg:flex grid-cols-5 justify-between text-bold'>
           <Link href=''>New & Featured</Link>
           <Link href=''>Men</Link>
