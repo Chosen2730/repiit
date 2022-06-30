@@ -1,12 +1,12 @@
 import { useGlobalContext } from "../Layout/context";
 import Head from "./../Layout/head";
-// import Hero from "../components/home/hero";
+import Hero from "../components/home/hero";
 
 export default function Home() {
   const { name } = useGlobalContext();
   return (
     <>
-      <Head title='Repiit' />
+      {/* <Head title='Repiit' /> */}
       {/* <Hero /> */}
     </>
   );
