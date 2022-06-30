@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-const Meta = ({ title }) => {
+const Meta = () => {
   return (
     <Head>
-      <title>{title}</title>
+      <title>Repiit</title>
       <meta
         name='description'
         content='An Ecommerce Website with lots of products for users'

@@ -6,8 +6,8 @@ export default function Home() {
   const { name } = useGlobalContext();
   return (
     <>
-      {/* <Head title='Repiit' /> */}
-      {/* <Hero /> */}
+      <Head />
+      <Hero />
     </>
   );
 }
